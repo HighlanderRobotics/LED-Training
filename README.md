@@ -35,3 +35,9 @@ Then, start the `AddressableLED`.
 10. Make a method that sets the LEDs to a (static) rainbow, then make one that cycles through the rainbow.
 11. Make a method that sets a short segment of purple lights to "run along" a background of white
 12. Make something fun! :D
+
+## Deploying Instructions
+Connect to the robot wifi network.
+Then, open the WPILib Command Palette (the little WPILib logo in the upper right corner of VSCode) and select `WPILib: Deploy Robot Code`.
+This sends the code to the robot.
+Then, use the NI Driver Station app to enable the robot, which you can download on your device or use the designated driver station laptop.
