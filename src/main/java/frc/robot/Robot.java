@@ -4,13 +4,16 @@
 
 package frc.robot;
 
+import java.rmi.dgc.Lease;
+
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj2.command.CommandScheduler;
+import frc.robot.subsystems.LEDSubsystem;
 
 public class Robot extends TimedRobot {
 
   // TODO: instantiate LED subsystem here as a member variable
-
+  LEDSubsystem ledSubsystem = new LEDSubsystem();
   public Robot() {
   }
 
